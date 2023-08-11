@@ -10,10 +10,10 @@ from drf_yasg.views import get_schema_view
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="FlaskShop API",
+        title="TestShop API",
         default_version='v1',
-        description="FlaskShop",
-        contact=openapi.Contact(email="sultanbek9899@gmail.com"),
+        description="TestShop",
+        contact=openapi.Contact(email="admin@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
